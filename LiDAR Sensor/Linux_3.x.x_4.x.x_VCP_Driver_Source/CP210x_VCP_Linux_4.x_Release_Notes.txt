@@ -26,6 +26,8 @@ Ubuntu:
 3. insmod /lib/modules/<kernel-version/kernel/drivers/usb/serial/usbserial.ko
 4. insmod cp210x.ko
 
+cp cp210x.ko to /lib/modules/6.5.0-14-generic/kernel/drivers/usb/serial
+
 RedHat:
 1. yum update kernel*  //need to update the kernel first otherwise your header won't match
 2. yum install kernel-devel kernel-headers  //get the devel and header packages.
