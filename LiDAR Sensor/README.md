@@ -19,3 +19,5 @@ https://medium.com/robotics-with-ros/installing-the-rplidar-lidar-sensor-on-the-
 RPLidar Jetson Nano
 https://maker.pro/linux/projects/getting-started-with-the-low-cost-rplidar-using-jetson-nano
 
+Manual
+https://wiki.slamtec.com/display/SD/Overseas+Help+Center?preview=/83066883/83066924/SA008_SLAMTEC_slamware_robot_studio_appnote_v1.1_en.pdf
