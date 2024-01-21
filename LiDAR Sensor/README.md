@@ -21,3 +21,6 @@ https://maker.pro/linux/projects/getting-started-with-the-low-cost-rplidar-using
 
 Manual
 https://wiki.slamtec.com/display/SD/Overseas+Help+Center?preview=/83066883/83066924/SA008_SLAMTEC_slamware_robot_studio_appnote_v1.1_en.pdf
+
+URL for installing ros-kinetic?? (ez shit apparently)
+https://stackoverflow.com/questions/45917952/error-installing-ros-kinetic-on-ubuntu-16-04
