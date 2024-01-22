@@ -8,3 +8,12 @@ You could put Harukas in the ceiling.
 
 Will we need to test in a hostpial facility?  
 No, but in a simulation of. Perhaps ERB 208.
+
+What would demonstrate the complete functionality?  
+Showcasing that the robot can move arbitrarily between multiple rooms in ERB second floor.  
+
+QR Code  
+You can position yourself relative to that QR code.  
+NFC tags and RF tags won't work like that.  
+Haruka tags are even better. They are designed specifically for position recognition.  
+You can print the Haruko tags off of a piece of paper.  
