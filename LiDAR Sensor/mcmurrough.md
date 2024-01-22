@@ -17,3 +17,5 @@ You can position yourself relative to that QR code.
 NFC tags and RF tags won't work like that.  
 Haruka tags are even better. They are designed specifically for position recognition.  
 You can print the Haruko tags off of a piece of paper.  
+aruco tags lol  
+https://docs.opencv.org/4.x/d5/dae/tutorial_aruco_detection.html
