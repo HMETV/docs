@@ -27,3 +27,6 @@ https://stackoverflow.com/questions/45917952/error-installing-ros-kinetic-on-ubu
 
 WE NEED TO INSTALL OLD VERSION OF UBUNTU **ONTO A RAPSBERRY PI** (Ubuntu "18.01")
 https://askubuntu.com/questions/1227763/how-do-i-download-old-ubuntu-versions
+
+Windows Driver available on SLAMTEC GitHub repo:  
+https://github.com/Slamtec/rplidar_sdk/tree/master/tools/cp2102_driver
