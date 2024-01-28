@@ -18,3 +18,15 @@ https://medium.com/robotics-with-ros/installing-the-rplidar-lidar-sensor-on-the-
 
 RPLidar Jetson Nano
 https://maker.pro/linux/projects/getting-started-with-the-low-cost-rplidar-using-jetson-nano
+
+Manual
+https://wiki.slamtec.com/display/SD/Overseas+Help+Center?preview=/83066883/83066924/SA008_SLAMTEC_slamware_robot_studio_appnote_v1.1_en.pdf
+
+URL for installing ros-kinetic?? (ez shit apparently)
+https://stackoverflow.com/questions/45917952/error-installing-ros-kinetic-on-ubuntu-16-04
+
+WE NEED TO INSTALL OLD VERSION OF UBUNTU **ONTO A RAPSBERRY PI** (Ubuntu "18.01")
+https://askubuntu.com/questions/1227763/how-do-i-download-old-ubuntu-versions
+
+Windows Driver available on SLAMTEC GitHub repo:  
+https://github.com/Slamtec/rplidar_sdk/tree/master/tools/cp2102_driver
