@@ -18,4 +18,3 @@ https://medium.com/robotics-with-ros/installing-the-rplidar-lidar-sensor-on-the-
 
 RPLidar Jetson Nano
 https://maker.pro/linux/projects/getting-started-with-the-low-cost-rplidar-using-jetson-nano
-
