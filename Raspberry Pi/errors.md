@@ -1,6 +1,6 @@
-https://wireframesketcher.com/support/install/installing-deb-package-on-ubuntu-debian.html
 
 # Error 1  
+## Terminal
 Reading package lists... Done
 Building dependency tree... Done
 Reading state information... Done
@@ -27,3 +27,6 @@ su libreoffice-base-core : Depends: libreoffice-core (= 4:7.6.4-0ubuntu0.23.10.1
  python3-uno : Depends: libreoffice-core (= 4:7.6.4-0ubuntu0.23.10.1) but 4:7.6.2-0ubuntu1 is to be installed or
                         libreoffice-core-nogui (= 4:7.6.4-0ubuntu0.23.10.1) but it is not going to be installed
 E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or specify a solution).
+
+## Solution tried
+https://wireframesketcher.com/support/install/installing-deb-package-on-ubuntu-debian.html
