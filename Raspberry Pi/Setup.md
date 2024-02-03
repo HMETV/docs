@@ -22,3 +22,4 @@ https://github.com/adafruit/Adafruit_CircuitPython_RPLIDAR
 ~~4. python3 -m venv path/to/venv~~
 
 1. pip install Adafruit_CircuitPython_RPLIDAR --break-system-packages
+2. Adafruit_Circuit _RPLIDAR using virtual environment: https://github.com/adafruit/circuitpython
