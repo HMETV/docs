@@ -30,5 +30,6 @@ https://github.com/adafruit/circuitpython
 2. Adafruit_Circuit _RPLIDAR using virtual environment: https://github.com/adafruit/circuitpython
 
 # Tutorials
-https://www.instructables.com/Using-Raspberry-Pi-4-With-Ubuntu-Ros-Rplidar-Ardui/
+https://www.instructables.com/Using-Raspberry-Pi-4-With-Ubuntu-Ros-Rplidar-Ardui/  
+
 https://www.hackster.io/shahizat/lidar-integration-with-ros-noetic-and-ubuntu-on-raspberry-pi-6ac3f7
