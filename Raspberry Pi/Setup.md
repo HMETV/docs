@@ -16,6 +16,8 @@ https://github.com/adafruit/Adafruit_CircuitPython_RPLIDAR
 
 # Installing Adafruit library
 
+https://github.com/adafruit/circuitpython
+
 ~~1. Install Python: apt install python 3.11-venv~~
 
 ~~2. Create Python environment~~
