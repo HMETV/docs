@@ -30,3 +30,8 @@ E: Unmet dependencies. Try 'apt --fix-broken install' with no packages (or speci
 
 ## Solution tried
 https://wireframesketcher.com/support/install/installing-deb-package-on-ubuntu-debian.html
+
+# Error 2
+
+Showing GUI error
+https://askubuntu.com/questions/1250026/ubuntu-20-04-server-suddenly-has-gui-and-no-terminal
