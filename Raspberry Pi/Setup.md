@@ -1,3 +1,7 @@
+How to safely shut down the raspberry pi
+https://www.makeuseof.com/shutdown-raspberry-pi/
+
+
 # Python
 
 https://docs.python-guide.org/starting/install3/linux/
