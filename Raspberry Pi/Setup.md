@@ -42,3 +42,5 @@ https://www.hackster.io/shahizat/lidar-integration-with-ros-noetic-and-ubuntu-on
 https://wiki.ros.org/noetic/Installation/Ubuntu
 
 https://wiki.ros.org/ROS/Tutorials
+
+https://answers.ros.org/question/252980/catkin_make-fail-must-be-invoked-in-the-root-of-workspace/
