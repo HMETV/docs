@@ -44,3 +44,5 @@ https://wiki.ros.org/noetic/Installation/Ubuntu
 https://wiki.ros.org/ROS/Tutorials
 
 https://answers.ros.org/question/252980/catkin_make-fail-must-be-invoked-in-the-root-of-workspace/
+
+https://www.youtube.com/watch?v=Cv33X0z_elc
