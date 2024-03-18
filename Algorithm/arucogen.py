@@ -14,8 +14,8 @@ for id in range(20):  # Generating 20 markers
     marker_image = aruco.generateImageMarker(marker_dict, id, MARKER_SIZE)
 
     # Adding text displaying the ID of the marker
-    cv.putText(marker_image, str(id), (int(MARKER_SIZE * 0.2), int(MARKER_SIZE * 0.8)),
-               cv.FONT_HERSHEY_SIMPLEX, 4, (255, 255, 255), 10, cv.LINE_AA)
+    #cv.putText(marker_image, str(id), (int(MARKER_SIZE * 0.2), int(MARKER_SIZE * 0.8)),
+               #cv.FONT_HERSHEY_SIMPLEX, 4, (255, 255, 255), 10, cv.LINE_AA)
 
     # Displaying and saving the marker
     cv.imshow("Marker", marker_image)
