@@ -1,4 +1,4 @@
-# Opening Python object detection
+# Opening python object detection
 
 https://github.com/Grantham00/rplidar_detection/wiki/3:-Usage
 
