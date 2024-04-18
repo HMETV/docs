@@ -1,27 +1,49 @@
-#container {
-  text-align: center;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
+.content-wrapper {
+  max-width: 90%;
+  width: 100%;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  display: block;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.absolute-button {
+  position: static; /* Change position to static for smaller screens */
+  margin-top: 15px;
+}
+
+ion-button {
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 10px;
+  right: 10px;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.logo-container {
+  text-align: center;
+  transition: transform 0.5s ease; /* Add animation transition */
+  position: absolute;
+  top: 250px; 
+  left: 68%; 
+  transform: translateX(-50%);
+  width: 66px; 
+  height: auto;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+.move-logo {
+  transform: translateY(-50px); /* Move logo up by 50px when object detected */
 }

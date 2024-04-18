@@ -1,20 +1,14 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content>
+  <div class="container">
+    <div class="content-wrapper">
+      <h2 class="title">Map of Cooks Children Health Center</h2>
+      <span class="image-container">
+        <ion-img src="assets/drawio.png"></ion-img>
+      </span>
+      <div class="logo-container" [ngClass]="{ 'move-logo': objectDetected }">
+        <ion-img src="assets/HMETV_logo.png "></ion-img>
+      </div>
+      <ion-button (click)="presentModal()" class="absolute-button">Request Items</ion-button>
+    </div>
   </div>
 </ion-content>

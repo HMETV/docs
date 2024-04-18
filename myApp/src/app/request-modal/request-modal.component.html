@@ -1,0 +1,19 @@
+<!-- request-modal.component.html -->
+
+<div class="modal-header">
+  <h2>Request Equipment Form</h2>
+</div>
+
+<div class="modal-content">
+  <form>
+    <div class="form-group">
+      <label for="equipment">Equipment</label>
+      <input id="equipment" type="text" [(ngModel)]="equipment" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="quantity">Quantity</label>
+      <input id="quantity" type="number" [(ngModel)]="quantity" name="quantity" required>
+    </div>
+    <button type="button" (click)="submitRequest()">Submit</button>
+  </form>
+</div>

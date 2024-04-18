@@ -1,0 +1,25 @@
+/* request-modal.component.scss */
+
+.modal-content {
+    max-width: 300px; /* Adjust the maximum width as needed */
+    margin: auto; /* Center the modal horizontally */
+    padding: 20px; /* Add padding around the content */
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Add some vertical spacing between form groups */
+  }
+  
+  button[type="button"] {
+    display: block;
+    width: 100%;
+    margin-top: 20px; /* Add margin at the top of the button */
+  }
+  
+  /* Center the modal vertically */
+  :host {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
