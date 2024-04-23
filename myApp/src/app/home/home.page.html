@@ -2,13 +2,13 @@
   <div class="container">
     <div class="content-wrapper">
       <h2 class="title">Map of Cooks Children Health Center</h2>
+      <ion-button (click)="presentModal()" class="absolute-button">Request Items</ion-button>
       <span class="image-container">
         <ion-img src="assets/drawio.png"></ion-img>
       </span>
       <div class="logo-container" [ngClass]="{ 'move-logo': objectDetected }">
         <ion-img src="assets/HMETV_logo.png "></ion-img>
       </div>
-      <ion-button (click)="presentModal()" class="absolute-button">Request Items</ion-button>
     </div>
   </div>
 </ion-content>
