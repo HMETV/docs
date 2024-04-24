@@ -33,6 +33,18 @@ ion-button {
   right: 10px;
 }
 
+@keyframes blink-animation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .logo-container {
   text-align: center;
   transition: transform 0.5s ease; /* Add animation transition */
@@ -42,6 +54,7 @@ ion-button {
   transform: translateX(-50%);
   width: 66px; 
   height: auto;
+  animation: blink-animation 1s infinite;
 }
 
 .move-logo {
