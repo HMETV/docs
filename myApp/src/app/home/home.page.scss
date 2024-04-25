@@ -45,18 +45,24 @@ ion-button {
   }
 }
 
+@keyframes move-image {
+  0% {
+    left: 1000px; /* Start position */
+  }
+  100% {
+    left: 700px; /* End position */
+  }
+}
+
 .logo-container {
-  text-align: center;
-  transition: transform 0.5s ease; /* Add animation transition */
   position: absolute;
   top: 390px; 
   left: 67%; 
-  transform: translateX(-50%);
+  left: 0; /* Initial position */
+  top: 50%;
   width: 66px; 
   height: auto;
-  animation: blink-animation 1s infinite;
-}
-
-.move-logo {
-  transform: translateY(-50px); /* Move logo up by 50px when object detected */
+  transform: translateY(-50%);
+  animation: move-image 2s 2 alternate; 
+  animation-fill-mode: forwards;
 }

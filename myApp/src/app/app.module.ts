@@ -10,11 +10,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { RequestModalComponent } from './request-modal/request-modal.component';
 import { FormsModule } from '@angular/forms'; // Import FormsModule
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; // Import this module
+
+
 @NgModule({
   declarations: [AppComponent,
     RequestModalComponent
   ],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, FormsModule],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, FormsModule, BrowserAnimationsModule,],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
 })

@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ArucoTagService {
-  private readonly TAGS_FILE_URL = 'http://localhost:3000/marker_ids.txt'; // Replace with the URL of your Python server
+  private readonly TAGS_FILE_URL = 'http://192.168.56.1:8000/marker_ids.txt'; // Replace with the URL of your Python server
 
   constructor(private http: HttpClient) {}
 
