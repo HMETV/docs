@@ -3,6 +3,7 @@
 import { Component } from '@angular/core';
 import { ModalController } from '@ionic/angular';
 import { RequestModalComponent } from '../request-modal/request-modal.component';
+import { ArucoTagService } from '../aruco-tag.service';
 
 @Component({
   selector: 'app-home',
