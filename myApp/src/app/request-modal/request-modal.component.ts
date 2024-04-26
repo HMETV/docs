@@ -12,11 +12,17 @@ import { ModalController, ToastController } from '@ionic/angular';
 export class RequestModalComponent {
   equipment: string = '';
   quantity: string = '';
-
+  logoShouldMove = false;
+  
   constructor(private modalController: ModalController, private toastController: ToastController) {}
 
   dismissModal() {
     this.modalController.dismiss();
+  }
+
+  animateLogo() {
+    this.logoShouldMove = true;
+    // Change the duration as needed
   }
 
   async submitRequest() {
@@ -29,6 +35,8 @@ export class RequestModalComponent {
 
     // Display confirmation message
     this.presentToast('Request submitted successfully.');
+
+    this.animateLogo();
 
     // Dismiss the modal
     this.dismissModal();
@@ -57,5 +65,8 @@ export class RequestModalComponent {
       position: 'bottom'
     });
     toast.present();
+  
+    
   }
 }
+

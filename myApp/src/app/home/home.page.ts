@@ -3,6 +3,7 @@
 import { Component } from '@angular/core';
 import { ModalController } from '@ionic/angular';
 import { RequestModalComponent } from '../request-modal/request-modal.component';
+import { LogoAnimationService } from '../logo-animation.service'; // Import the LogoAnimationService
 
 @Component({
   selector: 'app-home',
@@ -13,11 +14,8 @@ import { RequestModalComponent } from '../request-modal/request-modal.component'
 
 export class HomePage {
   logoShouldMove = false;
-
-  moveLogo() {
-    this.logoShouldMove = !this.logoShouldMove;
-  }
-  constructor(private modalController: ModalController) {}
+   
+  constructor(private modalController: ModalController, private logoAnimationService: LogoAnimationService ) {}
 
   async presentModal() {
     const modal = await this.modalController.create({
@@ -31,5 +29,10 @@ export class HomePage {
       console.log('User Information:', data);
       // Here you can handle the user information received from the modal
     }
+  }
+
+  // Method to toggle logo animation using the LogoAnimationService
+  async toggleLogoAnimation() {
+    this.logoAnimationService.toggleAnimation();
   }
 }

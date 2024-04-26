@@ -48,21 +48,41 @@ ion-button {
 @keyframes move-image {
   0% {
     left: 1000px; /* Start position */
+    top: 50%;
   }
+  20% {
+    left: 720px;
+    top: 58%;
+  }
+  40% {
+    left: 750px;
+    top: 40%;
+  }
+  60% {
+    left: 500px;
+    top: 70%;
+  }
+
+  80% {
+    left: 790px;
+    top: 70%;
+  }
+
   100% {
-    left: 700px; /* End position */
+    left: 1000px; /* End position */
+    top: 60%;
   }
 }
 
+
 .logo-container {
   position: absolute;
-  top: 390px; 
-  left: 67%; 
-  left: 0; /* Initial position */
   top: 50%;
-  width: 66px; 
+  left: 67%;
+  left: 0; /* Initial position */
+  width: 60px;
   height: auto;
-  transform: translateY(-50%);
-  animation: move-image 2s 2 alternate; 
+  transform: translate(-50%, -50%);
+  animation: move-image 10s infinite alternate, blink-animation 1s 0;
   animation-fill-mode: forwards;
 }
